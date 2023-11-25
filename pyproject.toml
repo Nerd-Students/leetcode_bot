@@ -1,14 +1,19 @@
+[tool.black]
+line-length = 79
+skip-string-normalization = true
+
 [tool.poetry]
 name = "leetcode-bot"
 version = "0.1.0"
 description = "Telegram Bot for Nerd_Students chat"
 authors = ["ilya <iborovkov97@yandex.ru>"]
 readme = "README.md"
-packages = [{include = "leetcode_bot"}]
 
 [tool.poetry.dependencies]
-python = "3.11"
+python = "~3.11.6"
 python-telegram-bot = "^20.6"
+python-dotenv = "^1.0.0"
+black = "^23.11.0"
 
 
 [build-system]
