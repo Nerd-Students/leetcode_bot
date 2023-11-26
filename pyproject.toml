@@ -3,7 +3,7 @@ line-length = 79
 skip-string-normalization = true
 
 [tool.poetry]
-name = "leetcode-bot"
+name = "leetcode_bot"
 version = "0.1.0"
 description = "Telegram Bot for Nerd_Students chat"
 authors = ["ilya <iborovkov97@yandex.ru>"]
